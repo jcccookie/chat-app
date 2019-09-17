@@ -103,7 +103,7 @@ class ColorPanel extends React.Component {
             width="very thin"
          >
             <Divider />
-            <Button icon="add" size="small" color="blue" onClick={this.openModal}/>
+            <Button icon="paint brush" size="small" color="blue" onClick={this.openModal}/>
             {this.displayUserColors(userColors)}
 
             <Modal

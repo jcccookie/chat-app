@@ -8,8 +8,8 @@ body,
 
 /* Messages.js */
 .messages {
-   height: 600px;
-   overflow-y: scroll;
+   height: 75vh;
+   overflow-y: auto;
 }
 
 /* MessageForm.js */

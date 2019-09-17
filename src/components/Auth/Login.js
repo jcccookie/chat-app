@@ -53,8 +53,8 @@ class Login extends React.Component {
       return (
          <Grid textAlign="center" verticalAlign="middle" className='app'>
             <Grid.Column style={{ maxWidth: 450 }}>
-               <Header as="h1" icon color="violet" textAlign="center">
-                  <Icon name="chat" color="violet"/>
+               <Header as="h1" icon color="blue" textAlign="center">
+                  <Icon name="chat" color="blue"/>
                   Login to start a chat
                </Header>
                <Form onSubmit={this.handleSubmit} size="large">
@@ -82,7 +82,7 @@ class Login extends React.Component {
                         value={password}
                         className={this.handleInputError(errors, 'password')}
                      />
-                     <Button disabled={loading} className={loading ? 'loading' : ''} color="violet" fluid size="large">Submit</Button>
+                     <Button disabled={loading} className={loading ? 'loading' : ''} color="blue" fluid size="large">Submit</Button>
                   </Segment>
                </Form>
                {errors.length > 0 && (

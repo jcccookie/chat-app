@@ -241,19 +241,19 @@ class MessageForm extends React.Component {
             <Button.Group icon widths="2">
                <Button 
                   onClick={this.sendMessage}
-                  color="orange"
+                  color="blue"
                   content="Add Reply (Ctrl + Enter)"
                   labelPosition="left"
                   icon="edit"
                   disabled={loading}
                />
                <Button 
-                  color="teal"
+                  color="purple"
                   disabled={uploadState === "uploading"}
                   onClick={this.openModal}
-                  content="Upload Media"
+                  content="Upload Photo"
                   labelPosition="right"
-                  icon="cloud upload"
+                  icon="picture"
                />
                
             </Button.Group>

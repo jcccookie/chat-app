@@ -18,9 +18,10 @@ const App = ({ currentUser, currentChannel, isPrivateChannel, userPosts, primary
       key={currentUser && currentUser.uid}
       currentUser={currentUser}
       primaryColor={primaryColor}
+      currentChannel={currentChannel}
     />
 
-    <Grid.Column style={{ marginLeft: 320 }}>
+    <Grid.Column style={{ marginLeft: 320, maxWidth: 720 }}>
       <Messages 
         key={currentChannel && currentChannel.id}
         currentChannel={currentChannel}
@@ -29,7 +30,7 @@ const App = ({ currentUser, currentChannel, isPrivateChannel, userPosts, primary
       />
     </Grid.Column>
 
-    <Grid.Column width={4}>
+    <Grid.Column width={4} style={{ maxWidth: 350 }}>
       <MetaPanel 
         key={currentChannel && currentChannel.id}
         isPrivateChannel={isPrivateChannel}
