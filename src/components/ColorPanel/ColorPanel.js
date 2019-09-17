@@ -50,6 +50,14 @@ class ColorPanel extends React.Component {
       }
    }
 
+   handleDefaultColor = () => {
+      this.setState({
+         primary: '#117bc2',
+         secondary: '#eee'
+      }, () => this.props.setColors(this.state.primary, this.state.secondary));
+      this.closeModal();
+   }
+
    //Save colors to database
    saveColors = (primary, secondary) => {
       this.state.usersRef
@@ -123,6 +131,9 @@ class ColorPanel extends React.Component {
                   </Segment>
                </Modal.Content>
                <Modal.Actions>
+                  <Button color="green" inverted onClick={this.handleDefaultColor}>
+                     <Icon name="checkmark" /> Default
+                  </Button>
                   <Button color="green" inverted onClick={this.handleSaveColors}>
                      <Icon name="checkmark" /> Save Colors
                   </Button>
