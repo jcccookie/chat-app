@@ -2,7 +2,7 @@
 
 This is a slack clone chat application that provide real time chat communication. 
 You can check the [live demo](https://slack-clone-e6a29.firebaseapp.com/)(👈🏽click). 
-<span style="opacity: 0.7">test id : nate@gmail.com</span>
+id: nate@gmail.com
 password: 123123123
 
 ## Overview
