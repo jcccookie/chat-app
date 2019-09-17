@@ -15,6 +15,7 @@ This is a single page web application built with [React](https://reactjs.org), [
 
 > Backend
 - [Firebase](https://firebase.google.com)
+Used firebase realtime database for data persistence and storage for saving images
 
 
 ## Features
