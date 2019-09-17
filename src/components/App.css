@@ -8,7 +8,7 @@ body,
 
 /* Messages.js */
 .messages {
-   height: 75vh;
+   height: 70vh;
    overflow-y: auto;
 }
 
