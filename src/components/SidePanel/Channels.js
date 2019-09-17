@@ -122,7 +122,7 @@ class Channels extends React.Component {
             console.log('channel added');
          })
          .catch(err => {
-            console.log(err);
+            console.error(err);
          })
    }; 
 
