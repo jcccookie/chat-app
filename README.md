@@ -20,6 +20,9 @@ This is a single page web application equipped with real time chat with several 
 - Used [Firebase](https://firebase.google.com) realtime database for data persistence and storage for saving images
 - Keep track of user's online/offline status
 
+> Deployment
+- [Firebase Hosting](https://firebase.google.com/docs/hosting)
+
 ## Sample Images
 
 <img src="/public/image1.png" alt="sc1" title="mobile1" width="1500" height="650" />
