@@ -1,4 +1,4 @@
-# Chat App
+# Real Time Chat App
 
 This is a slack clone chat application that provide real time chat communication. 
 You can check the [live demo](https://slack-clone-e6a29.firebaseapp.com/)(👈🏽click). 
