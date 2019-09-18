@@ -18,5 +18,5 @@ This is a single page web application equipped with real time chat with several 
 > Backend
 - Used [firebase](https://firebase.google.com) realtime database for data persistence and storage for saving images
 
-<img src="/public/image1.png" alt="sc1" title="mobile1" width="1500" height="800" />
-<img src="/public/image2.png" alt="sc1" title="mobile2" width="1500" height="800" />
+<img src="/public/image1.png" alt="sc1" title="mobile1" width="1500" height="650" />
+<img src="/public/image2.png" alt="sc1" title="mobile2" width="1500" height="650" />
