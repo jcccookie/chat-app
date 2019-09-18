@@ -7,7 +7,7 @@ You can check the [live demo](https://slack-clone-e6a29.firebaseapp.com/)(ðŸ‘ˆðŸ
 
 ## Overview
 
-This is a single page web application equipped with real time chat with several features such as Direct Message, Channel, Upload photo, Change theme.
+This is a single page web application equipped with real time chat with key features such as Direct Message, Channel, Upload photo, Change theme.
 
 ## Stacks
 > Frontend
