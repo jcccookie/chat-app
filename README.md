@@ -12,11 +12,13 @@ This is a single page web application equipped with real time chat with several 
 ## Stacks
 > Frontend
 - [React](https://reactjs.org)
-- [Redux](https://redux.js.org/basics/usage-with-react)
 - [Semantic UI React](https://react.semantic-ui.com/)
+- [Redux](https://redux.js.org/basics/usage-with-react): State Management
+
 
 > Backend
-- Used [firebase](https://firebase.google.com) realtime database for data persistence and storage for saving images
+- Used [Firebase](https://firebase.google.com) realtime database for data persistence and storage for saving images
+- Keep track of user's online/offline status
 
 ## Sample Images
 
